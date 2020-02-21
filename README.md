@@ -14,12 +14,12 @@ needed, and even add new items to your inventory!
 
 Happy shopping!
 
-# customer demo 
+# Customer demo 
 
 https://drive.google.com/file/d/1R6fVFEALdRsuhqKcFYplWldGzneAmc3w/view
 
 
-# stock side demo
+# Stock side demo
 
 https://drive.google.com/file/d/14pcTFPLdCb6kb5IVDkyLg1EN2EvagTRI/view
 
