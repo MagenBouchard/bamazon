@@ -31,7 +31,7 @@ function start() {
     console.log("----------------------------------------------\n");
     // we have a nice little varriable to store the array of product names so the customer can choose look through it to display entire list
     var resList = [];
-
+//putting the products into that array we created previously
     for (var i = 0; i < res.length; i++) {
       resList.push(res[i].product_name);
     }
