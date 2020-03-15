@@ -107,7 +107,7 @@ function start() {
             }
           );
         }
-        // okay now if we do not have enough the item they have choose we let them know
+        // okay now if we do not have enough the item they have choosen we let them know
         if (chosenItem.stock_quantity < parseInt(data.amount)) {
           console.log(
             `OH NO! We only have  ${chosenItem.stock_quantity}.\n Not enough items are available :(.`
