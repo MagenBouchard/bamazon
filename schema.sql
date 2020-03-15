@@ -25,3 +25,20 @@ VALUES (1, "Air Fryer", "Kitchen", 89 , 8),
         (8, "Space Heater", "Appliances", 19 , 17),
         (9, "Table", "Furniture", 49 , 10),
         (10, "Mobile Phone", "Electronics", 75 , 44); 
+
+
+
+
+
+
+DROP DATABASE IF EXISTS supervisor_db;
+CREATE DATABASE supervisor_DB;
+
+USE supervisor_DB;
+
+
+CREATE TABLE departments(
+  department_id INT NOT NULL,
+  department_name VARCHAR(100) NOT NULL,
+  over_head_costs VARCHAR(45) NOT NULL
+);
