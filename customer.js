@@ -140,7 +140,7 @@ function start() {
                     // letting them know what they bought and math for the ammount
                     if (parseInt(data.amount) > 1) {
                       console.log(
-                        `You just bought! ${data.amount} \n ${
+                        `You just bought ${data.amount} !\n ${
                           chosenItem.product_name
                         }${plural} for $${parseInt(data.amount) *
                           parseInt(chosenItem.price)}!`
