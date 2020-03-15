@@ -1,6 +1,5 @@
-let inquirer = require("inquirer");
-let mysql = require("mysql");
-let table = require("cli-table"); // tricky tricky ran out of time to figure out how to get to work!
+const inquirer = require("inquirer");
+const mysql = require("mysql");
 
 //connection info
 let connection = mysql.createConnection({
