@@ -1,6 +1,6 @@
 let inquirer = require("inquirer");
 let mysql = require("mysql");
-let table = require("cli-table"); // ran out of time couldn't figure out!
+
 
 let connection = mysql.createConnection({
   host: "localhost",
