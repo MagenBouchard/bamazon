@@ -1,6 +1,6 @@
 # bamazon
 
-### Overview
+## Overview
 Welcome to Bamazon! This is an Amazon-like storefront built with MySQL and Node.js. 
 
 Within the customer portal, you can view the inventory, choose an item you'd like to purchase
@@ -14,12 +14,12 @@ needed, and even add new items to your inventory!
 
 Happy shopping!
 
-# Customer demo 
+## Customer demo 
 
 https://drive.google.com/file/d/1R6fVFEALdRsuhqKcFYplWldGzneAmc3w/view
 
 
-# Stock side demo
+## Stock side demo
 
 https://drive.google.com/file/d/14pcTFPLdCb6kb5IVDkyLg1EN2EvagTRI/view
 
