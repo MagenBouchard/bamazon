@@ -18,7 +18,6 @@ connection.connect(function(err) {
   start();
 });
 
-
 // how we get rolling makes the connection to the database and displays so the customer can see
 function start() {
   connection.query("SELECT * FROM products WHERE stock_quantity > 0", function(
