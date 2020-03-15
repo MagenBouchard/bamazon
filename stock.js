@@ -79,11 +79,11 @@ function lookAtProducts() {
 //an improvement could be to allow the user to sellect the quanity they would want to search by could get user input and place in a placeholder 
 function viewLowInventory() {
   connection.query(
-    "SELECT * FROM products WHERE stock_quantity < 10 ",
+    "SELECT * FROM products WHERE stock_quantity < 5 ",
     function(err, res) {
       if (err) throw err;
 
-      console.log("Here are all the items that have a quantity of 10 or less.");
+      console.log("Here are all the items that have a quantity of 5 or less.");
       console.log("\n");
       console.table(res);
       console.log("\n");
